@@ -1,6 +1,6 @@
 package questao5e6;
 /*
- * Classe usada para de ter um feedback de desempenho
+ * Classe usada para se ter um feedback de desempenho
  */
 public class Q6 {
 
