@@ -1,5 +1,8 @@
 package questao3e4;
-
+/*
+ * Classe usada para definir a vaga onde serÃ¡ estacionado com base na cor do veiculo 
+ * e bonus por tempo no estacionamento
+ */
 import java.util.Scanner;
 
 public class Q4 {
@@ -26,7 +29,7 @@ public class Q4 {
 			System.out.println("Estacione em uma vaga de numero multiplo de 5");
 		
 		}else{
-			System.out.println("Você não é bem vindo aqui, pague uma taxa extra de R$33");
+			System.out.println("VocÃª nÃ£o Ã© bem vindo aqui, pague uma taxa extra de R$33");
 		}
 			
     }	
@@ -40,7 +43,7 @@ public class Q4 {
 			System.out.println("Bonus por tempo: Ganhou direito a uma ducha e um aromatizante");
 			
 		}else {
-			System.out.println("Não possui direito a bonus");
+			System.out.println("NÃ£o possui direito a bonus");
 		}	
 	}
 	
