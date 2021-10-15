@@ -1,5 +1,7 @@
 package questao5e6;
-
+/*
+ * Classe usada para de ter um feedback de desempenho
+ */
 public class Q6 {
 
 	public Q6() {
@@ -9,16 +11,16 @@ public class Q6 {
 	public void pontuacao(int pontos) {
 		
 		if(pontos == 100) {
-			System.out.println("Pontuação perfeita: "+pontos);
+			System.out.println("PontuaÃ§Ã£o perfeita: "+pontos);
 			
 		}else if(pontos >= 80 && pontos < 100) {
-			System.out.println("Pontuação ótima: "+pontos);
+			System.out.println("PontuaÃ§Ã£o Ã³tima: "+pontos);
 			
 		}else if(pontos >= 50 && pontos < 80) {
-			System.out.println("Pontuação média: "+pontos);
+			System.out.println("PontuaÃ§Ã£o mÃ©dia: "+pontos);
 			
 		}else {
-			System.out.println("Pontuação baixa: "+pontos);
+			System.out.println("PontuaÃ§Ã£o baixa: "+pontos);
 		}
 		
 
