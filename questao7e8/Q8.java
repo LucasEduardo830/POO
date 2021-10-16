@@ -1,6 +1,7 @@
 package questao7e8;
 /*
- * Classe para exibir o tempo de duração das oscilações
+ * Classe para exibir o tempo de duração das oscilações, considerando a duração de
+ * cada oscilação como 1 segundo
  */
 import java.time.Duration;
 
