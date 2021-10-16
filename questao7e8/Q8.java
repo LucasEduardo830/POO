@@ -1,5 +1,7 @@
 package questao7e8;
-
+/*
+ * Classe para exibir o tempo de duração das oscilações
+ */
 import java.time.Duration;
 
 public class Q8 {
@@ -18,6 +20,6 @@ public class Q8 {
 		this.hrs = total.toHoursPart();
 		this.min = total.toMinutesPart();
 		this.seg = total.toSecondsPart();
-		System.out.println("Dura��o das oscila��es: " +this.hrs+ "hr " +this.min+ "min "+this.seg+ "s");
+		System.out.println("Duração das oscilações: " +this.hrs+ "hr " +this.min+ "min "+this.seg+ "s");
 	}
 }
